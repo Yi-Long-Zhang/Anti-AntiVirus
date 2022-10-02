@@ -49,7 +49,7 @@ class Colored(object):
 
 def main():
     color = Colored()
-    print(color.green("你好"))
+    print(color.green("你eee好"))
 
 
 if __name__ == '__main__':
