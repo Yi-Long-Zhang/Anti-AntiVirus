@@ -34,8 +34,7 @@ class Colored(object):
     def white(self, s):
         return Fore.WHITE + s
 
-        #  前景色:黑色  背景色:默认
-
+    #  前景色:黑色  背景色:默认
     def black(self, s):
         return Fore.BLACK + s
 
@@ -48,9 +47,7 @@ class Colored(object):
 
 
 def main():
-    color = Colored()
-    print(color.green("你eee好"))
-
+    pass
 
 if __name__ == '__main__':
     main()
